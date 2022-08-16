@@ -46,12 +46,27 @@
 // }
 
 // Задача №3
-Console.Write("Введите число N: ");
-int N = Convert.ToInt32(Console.ReadLine());
-int number = 2;
+// Console.Write("Введите число N: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+// int number = 2;
 
-while (N >= number)
+// while (N >= number)
+// {
+//     Console.WriteLine(number);
+//     number = number + 2;
+// }
+
+// Задача №6
+Console.Write("Введите число N: ");
+
+int N = Convert.ToInt32(Console.ReadLine());
+
+if (N %2 == 0)
 {
-    Console.WriteLine(number);
-    number = number + 2;
+    Console.WriteLine(N + " Четное число ");
+}
+
+else 
+{
+    Console.WriteLine(N + " Нечетное число ");
 }
